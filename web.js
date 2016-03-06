@@ -7,6 +7,6 @@ const app = express();
 
 app.get('/:username', cors(), (req, res) => {
   getUsername(req.params.username, { gh })
-    .then(username => res.end(username || ''));
+    .then(username => res.end(username));
 });
 app.listen(port);
