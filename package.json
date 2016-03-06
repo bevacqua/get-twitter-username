@@ -1,0 +1,22 @@
+{
+  "name": "get-twitter-username",
+  "version": "1.0.0",
+  "description": "Infer a GitHub user's Twitter username",
+  "main": "index.js",
+  "bin": "cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevacqua/get-twitter-username.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (https://ponyfoo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/get-twitter-username/issues"
+  },
+  "homepage": "https://github.com/bevacqua/get-twitter-username#readme",
+  "dependencies": {
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "github-npm-profile": "1.1.0"
+  }
+}

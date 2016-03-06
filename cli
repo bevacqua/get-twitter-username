@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const getProfile = require('./');
+const gh = process.env.GITHUB_ACCESS_TOKEN;
+const input = process.argv[2];
+
+getProfile(input, { gh }).then(user => console.log(user));
