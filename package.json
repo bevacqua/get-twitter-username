@@ -10,10 +10,13 @@
   },
   "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (https://ponyfoo.com)",
   "license": "MIT",
+  "homepage": "https://github.com/bevacqua/get-twitter-username#readme",
   "bugs": {
     "url": "https://github.com/bevacqua/get-twitter-username/issues"
   },
-  "homepage": "https://github.com/bevacqua/get-twitter-username#readme",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "cors": "2.7.1",
     "express": "4.13.4",
