@@ -15,7 +15,7 @@
     "url": "https://github.com/bevacqua/get-twitter-username/issues"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node web.js"
   },
   "dependencies": {
     "cors": "2.7.1",
