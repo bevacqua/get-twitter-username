@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const getUsername = require('./');
-const port = process.env.PORT || 3000;
+const port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3000;
 const gh = process.env.GITHUB_ACCESS_TOKEN;
 const app = express();
 
